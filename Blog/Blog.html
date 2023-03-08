@@ -4,6 +4,8 @@
 <!-- Determina o ínicio e o fim do documento html, pode conter o atributo "lang" que determina qual idioma serão os textos  -->
 <html lang="pt-br" >
 
+
+
 <!-- Determina o ínicio e o fim do cabeçalho-->
 <head>
 
@@ -12,51 +14,41 @@
 	
 	<!--determina as palavras chaves do docuumento-->
 	<meta name="keywords" content="fiap, html, windows xp">
+	
+	<!--Tag que determina o teclado que será usado para acentuações-->
+	<meta charset="utf-8">
 
-	<style>
-		body { background-color: pink; }
-	</style>
 </head>
 
+<link rel="stylesheet" href="style.css">
 <!-- Determina o corpo do documento, todos os elementos visiveis -->
 <body>
 	<header>
 		<!--Primeira linha do em h1, o maior tamanho de texto-->
 		<h1>Blog do Matheus Xavier</h1>
 	</header>
+	<body>
+	<div class="banner">
+		<video autoplay muted loop>
+			<source src="../imagens/borboleta.mp4" type="video/mp4">			
+		</video>
+		<div class="content">
+			<h1>Blog</h1>
+			<p> Matheus Xavier</p>
+			<a href="#"><img src="../imagens/instagram.png" alt="Instagram"</a>
+			<a href="#"><img src="../imagens/WhatsApp.png" alt="Whatsapp"</a>
+			<footer>
+				<p>&copy; 2023 - Blog do Matheus Xavier</p>
+			</footer>
+		</div>
+	</div>
 
-	<nav>
-		<ul>
-			<!--Botões interativos-->
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Sobre mim</a></li>
-			<li><a href="#">Contato</a></li>
-		</ul>
-	</nav>
-
-	<main>
-		<h2>Minhas postagens</h2>
-
-		<article>
-			<h3>Windows xp</h3>
-			<p>Era uma vez um sistema operacional que conquistou o coração de milhões de pessoas ao redor do mundo. Seu nome era Windows XP. 
-				Com sua interface gráfica atraente e intuitiva, ele tornou a vida dos usuários muito mais fácil e agradável.</p>
-			<img src="https://tm.ibxk.com.br/2022/12/16/16160156149370.jpg?ims=1120x420" alt="windows xp é o melhor que existe">
-		</article>
-
-		<article>
-			<h3>Windows xp</h3>
-			<p>Além disso, o XP era extremamente estável. Não era como aquele amigo que sempre te deixava na mão. Com o XP, podíamos trabalhar o dia todo sem precisar se preocupar com aquela famosa "tela azul da morte". 
-				Ele foi muito bem testado e aprimorado antes de ser lançado, o que resultou em um sistema muito mais confiável e menos propenso a falhas do que seus antecessores.</p>
-			<img src="https://tm.ibxk.com.br/2022/12/16/16160156149370.jpg?ims=1120x420" alt="windows xp > qualquer outro">
-		</article>
-
-		<!-- Adicione mais postagens aqui -->
+	</body>
 
 	</main>
 
 	<footer>
-		<p>&copy; 2023 -Blog do Matheus Xavier</p>
+		<p>&copy; 2023 - Blog do Matheus Xavier</p>
 	</footer>
 
 </body>
